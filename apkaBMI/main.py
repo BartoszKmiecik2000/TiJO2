@@ -1,4 +1,5 @@
 import tkinter as tk
+import unittest
 
 
 class Calculator:
@@ -41,6 +42,7 @@ class GUI:
         self.category_label.pack()
 
     def calculate_bmi(self):
+        global category
         weight = float(self.weight_entry.get())
         height = float(self.height_entry.get())
 
@@ -77,3 +79,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = GUI(root)
     root.mainloop()
+
+    unittest.main()

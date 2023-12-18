@@ -1,0 +1,70 @@
+Scenario 1:
+	Enter Weight (kg): 10
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 4.44
+		Underweight (Severe thinness)
+
+Scenario 2:
+	Enter Weight (kg): 38
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 16.89
+		Underweight (Moderate thinness)
+
+Scenario 3:
+	Enter Weight (kg): 40
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 17.78
+		Underweight (Mild thinness)
+
+Scenario 4:
+	Enter Weight (kg): 45
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 20.00
+		Normal range
+
+Scenario 5:
+	Enter Weight (kg): 65
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 28.89
+		Overweight (Pre-obese)
+
+Scenario 6:
+	Enter Weight (kg): 72
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 32.00
+		Obese (Class I)
+
+Scenario 7:
+	Enter Weight (kg): 85
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 37.78
+		Obese (Class II)
+
+Scenario 8:
+	Enter Weight (kg): 150
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 66.67
+		Obese (Class III)
+
+Scenario 9:
+	Enter Weight (kg): 150
+	Enter Height (cm): 0
+	Expectre output:
+		Error: Height cannot be zero.
+
+Scenario 10:
+	Enter Weight (kg): 0
+	Enter Height (cm): 150
+	Expectre output:
+		Your BMI is: 0.0
+		Underweight (Severe thinness)
+
+
