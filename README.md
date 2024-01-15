@@ -22,5 +22,5 @@ Projekt należy otworzyć w zintegrowanym środowisku programistycznym(IDE) wspi
 | ------------- | ------------- | ------------- | ------------- |
 | TC_01  | Wprowadzenie poprawnych wartości. | 1. W polu Entry Weight (kg) wprowadź wartość 70.
 1. W polu Entry Height (kg) wprowadź wartość 175. | Your BMI is: 22.86 Normal range |
-| TC_02  | Podanie wzrostu o wartości 0. | 1. W polu Entry Weight (kg) wprowadź wartość 70.
-1. W polu Entry Height (kg) wprowadź wartość 0. | Error: Height cannot be zero. |
+| TC_02  | Podanie wzrostu o wartości 0. | 2. W polu Entry Weight (kg) wprowadź wartość 70.
+2. W polu Entry Height (kg) wprowadź wartość 0. | Error: Height cannot be zero. |
